@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Portfolio Website❤️</title>
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/cd75eae0f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./logoo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer / Blogger</p>
+                <h1>Hi, <Span>I'm Rajan </Span>Bhandari,<br> from Nepal.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./user.JPG" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an aspiring professional currently pursuing a Bachelor's degree in Computer Applications (BCA), I am passionate about exploring the vast and exciting world of technology. My interests in web development graphic designing and programming have helped me develop a unique perspective and approach to problem-solving.
+                        I possess strong collaborative skills and thrive in team-oriented environments. I enjoy working with teams to achieve common goals. I am a motivated and enthusiastic individual with a passion for technology and look forward to building meaningful connections and making valuable contributions to the industry.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Wordpress:</span><br>Wordpress Web Development</li>
+                                <li><span>Web development:</span><br>Responsive and SEO frendly websites</li>
+                                <li><span>Blogging:</span><br>Blogging and content Writing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2021-Current:</span><br>Learning Python programming</li>
+                                <li><span>2020-2021:</span><br>Website and wordpress Development</li>
+                                <li><span>2019-2020:</span><br>Blogging and SEO Content Writing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2019:</span><br>Basic Computer and Technology</li>
+                                <li><span>2020:</span><br>Python and Web-Development(Learning)</li>
+                                <li><span>2021-current:</span><br>Bachelor of Computer Application(BCA)</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of About Section-->
+
+    <!--Services Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can design seo friendly and responsive website both through coding and through wordpress.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-blogger"></i>
+                    <h2>Blogging</h2>
+                    <p>I can provide the service to setup your blog and website through wordpress and making it seo friendly and responsive.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>SEO content writing</h2>
+                    <p>I can provide you the service to write SEO friendly content for your blog and help you to rank.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End of Services Section-->
+    <!--Portfolio Section-->
+    <div id="porfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work-1.png">
+                    <div class="layer">
+                        <h3>Responsive Portfolio website</h3>
+                        <p>Portfolio that describe you far better through your skill, Experience and Education.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-2.png">
+                    <div class="layer">
+                        <h3>Website Development</h3>
+                        <p>Website to showcase your skill and expertise and making money through adsense and affiliate Marketing.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-3.png">
+                    <div class="layer">
+                        <h3>Blogging and content writing</h3>
+                        <p>Making a SEO friendly blogs and writing a better and catchy blogs which helps people to gain something informative.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+        <!--End of Portfolio Section-->
+
+        <!--Contact Section-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> Email : razzanbhandari4541@gmail.com</p>
+                        <p> <i class="fa-solid fa-square-phone"></i> Ph.No. : 98********</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/uniqueboyrazan"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com/razzan.bhandari?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/rajan-bhandari-22504926a"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://youtube.com/@razzanbhandari?si=ZQ5y5yyj19yWI5a7"><i class="fa-brands fa-square-youtube"></i></a>
+                        </div>
+                        <a href="./my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="10" placeholder="your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright2023 @ Rajan-Bhandari. Made with <i class="fa-solid fa-heart"></i> by Rajan Bhandari. </p>
+            </div>
+        </div>
+        <!--End of Contact Section-->
+        <!--javascript for About ME Section-->
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links"); /*declaring variable of tab-links..yesma skill education and experience vanni heading chha*/
+        var tabcontents = document.getElementsByClassName("tab-contents");/* yesma tab kaa content haru chha jaslai variable decalre garako ho*/
+        
+        function opentab(tabname){     /*defining the function opentab.. click garda tab open garna ko lagi*/
+            for(tablink of tablinks){  /*this loop...skill education yaa experience maa click garepaxi red underline  hide or remove garna ko lagi*/
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){     /*this loop...skill education yaa experience maa click garepaxi title details  hide or remove garna ko lagi*/
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");    /*it will display the color of skill if clicked on skill and same for all three tabs(skill, education and experience)*/
+            document.getElementById(tabname).classList.add("active-tab");       /*it will display the content of skill if clicked on skill and same for all three tabs(skill, education and experience)*/
+        }
+    </script>
+<!--End of Javascirpt of About Me Section-->
+
+
+<!--javascript for side menu-->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<!--End of javascript for side menu-->
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxV2jRb_KhCtQCKyyLo0FLPmcD6EEPtdockyuf0JsohDQTO2W5BzCs2YmUZFBSMRW1iDA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") /*yo line paxi thapako ho*/
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)/*5000 millisecond paxi form reset hunxa*/
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
